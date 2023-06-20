@@ -27,14 +27,15 @@ This contract can be deployed on a testnet or a local testing environment. Follo
 truffle init
 
 4. Install dependencies:
-    npm install @openzeppelin/contracts
+    `npm install @openzeppelin/contracts`
 
 5. Update the 2_deploy_contracts.js file in the migrations directory with the desired relayer reward.
 
 6. Compile and deploy the contract:
-     truffle develop
-     truffle(develop)> compile
-     truffle(develop)> migrate
+   ```bash
+      truffle develop
+      truffle(develop)> compile
+      truffle(develop)> migrate
 
 #Usage
 The contract provides the following functions:
